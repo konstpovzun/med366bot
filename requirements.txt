@@ -1,0 +1,10 @@
+aiogram==3.13.1
+python-dotenv==1.0.1
+pymorphy3
+pymorphy3-dicts-ru
+requests
+beautifulsoup4
+playwright
+pytesseract
+pillow
+openai-whisper
