@@ -7,6 +7,5 @@ beautifulsoup4
 playwright
 pytesseract
 pillow
-openai-whisper
-torch --index-url https://download.pytorch.org/whl/cpu
-torchvision --index-url https://download.pytorch.org/whl/cpu
+flask
+groq
