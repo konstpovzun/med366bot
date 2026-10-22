@@ -7,6 +7,9 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from config import BOT_TOKEN
 from handlers import start, symptoms, analysis, fallback, link_handler, fact_handler, photo_handler, video_handler
 
+from keep_alive import keep_alive
+keep_alive()
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
